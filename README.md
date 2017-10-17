@@ -1,2 +1,2 @@
 # gaf_converter
-This script converts .gaf files into formatted input for the R package topGO.
+This script converts .gaf files into properly formatted input for the R package topGO.
