@@ -67,17 +67,13 @@ for line in range(len(gene_id_list)):
 # Printing the output
 out_fandle = io.open("output.txt", "wb")
 for x in range(len(final_go_term_list)):
-    print(x)
-    print(final_go_term_list[x])
-    print(str(len(final_go_term_list[x])) + "\n")
     if len(final_go_term_list[x]) == 1:
-        print("hit flag\n")
         out_fandle.write(str(final_gene_id_list[x]) +
                              "\t" +
                              str(final_go_term_list[x])[3:-2] +
                              "\n")
     else:
-        # Turing the list of GO terms into a string separated by commas and a space
+        # Turning the list of GO terms into a string separated by commas and a space
         output_go_term_line = ", ".join(final_go_term_list[x])
         out_fandle.write(str(final_gene_id_list[x]) + 
                              "\t" + 
