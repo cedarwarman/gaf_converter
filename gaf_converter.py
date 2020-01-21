@@ -1,6 +1,6 @@
 #!/usr/bin/env python2.7
 
-# M.D. Warman
+# C.D. Warman
 # October 16, 2017
 
 # This script converts .gaf files (gene annotation file) into formatted input
